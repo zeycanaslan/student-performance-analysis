@@ -16,6 +16,11 @@ Bu depo, Python kullanarak gerçekleştirdiğim çeşitli veri analizi, veri mad
 - **Odak Noktası:** Satışlardaki mevsimsel değişimler ve en yüksek kazanç sağlanan aylar.
 - **Teknikler:** Line Chart (Çizgi Grafik), Veri Temizleme, Pandas, Matplotlib.
 
+### 3. 🎻 Müşteri Segmentasyonu ve Harcama Analizi (`violin-plot.ipynb`)
+- **Açıklama:** "Mall Customers" veri seti kullanılarak müşteri demografisi ve harcama alışkanlıkları analiz edilmiştir.
+- **Odak Noktası:** Cinsiyet ve yaş gruplarına göre yıllık gelir ve harcama skorlarının yoğunluk dağılımı.
+- **Teknikler:** Violin Plot (Keman Grafiği), Seaborn, Pandas, Matplotlib.
+
 ---
 
 ## 🛠️ Kullanılan Genel Teknolojiler
@@ -38,7 +43,7 @@ Projelerin genelinde aşağıdaki Python kütüphaneleri aktif olarak kullanılm
    ```
 2. Gerekli kütüphaneleri yükleyin:
    ```bash
-   pip install pandas numpy matplotlib plotly notebook
+   pip install pandas numpy matplotlib seaborn plotly notebook
    ```
 3. İlgili `.ipynb` dosyasını Jupyter Notebook veya VS Code üzerinden açarak çalıştırın.
 
