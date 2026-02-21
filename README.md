@@ -1,55 +1,48 @@
-# 📊 Öğrenci Sınav Performansı Analizi
+# 🚀 Veri Analizi ve Görselleştirme Portfolyosu
 
-Bu proje, Kaggle üzerindeki popüler **"Students Performance in Exams"** veri setini kullanarak öğrencilerin akademik başarılarını veri bilimi teknikleriyle incelemektedir. Özellikle matematik notlarının dağılımını ve istatistiksel özetini **Box Plot (Kutu Grafiği)** yöntemiyle görselleştirmeyi hedefler.
+Bu depo, Python kullanarak gerçekleştirdiğim çeşitli veri analizi, veri madenciliği ve interaktif görselleştirme projelerini içermektedir. Her bir proje, gerçek dünya veri setleri üzerinde derinlemesine incelemeler sunar.
 
-## 🚀 Proje Hakkında
+## 📂 Mevcut Projeler
 
-Veri görselleştirme, karmaşık veri setlerindeki eğilimleri ve aykırı değerleri (outliers) anlamak için kritik bir araçtır. Bu çalışmada:
-- Veri setindeki matematik notlarının genel dağılımı incelenmiştir.
-- **Matplotlib** ile temel görselleştirme yapılmıştır.
-- **Plotly Express** kullanılarak etkileşimli, detaylı bilgi sunan dinamik bir grafik oluşturulmuştur.
+Şu an depoda bulunan analiz çalışmaları aşağıda listelenmiştir:
 
-## 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
+### 1. 📊 Öğrenci Sınav Performansı Analizi (`box-chart.ipynb`)
+- **Açıklama:** Kaggle üzerindeki "Students Performance in Exams" veri seti kullanılarak öğrencilerin akademik başarıları incelenmiştir.
+- **Odak Noktası:** Matematik notlarının dağılımı ve istatistiksel özetleri.
+- **Teknikler:** Box Plot (Kutu Grafiği), Pandas, Plotly Express.
 
-Proje, modern Python veri bilimi ekosistemi üzerine inşa edilmiştir:
+### 2. 📈 Aylık Satış Trendleri Analizi (`line-chart.ipynb`)
+- **Açıklama:** Bir perakende şirketinin yıllık satış verileri üzerinden aylık performans trendleri analiz edilmiştir.
+- **Odak Noktası:** Satışlardaki mevsimsel değişimler ve en yüksek kazanç sağlanan aylar.
+- **Teknikler:** Line Chart (Çizgi Grafik), Veri Temizleme, Pandas, Matplotlib.
+
+---
+
+## 🛠️ Kullanılan Genel Teknolojiler
+
+Projelerin genelinde aşağıdaki Python kütüphaneleri aktif olarak kullanılmaktadır:
 
 | Kütüphane | Kullanım Amacı |
 | :--- | :--- |
-| **Pandas** | Veri setinin okunması, temizlenmesi ve analize hazırlanması. |
-| **Matplotlib** | Statik veri görselleştirme ve grafik düzenlemeleri. |
-| **Plotly** | Kullanıcı etkileşimli, web tabanlı dinamik grafikler. |
-| **Jupyter Notebook** | Kodun adım adım çalıştırılması ve sonuçların anlık takibi. |
+| **Pandas** | Veri manipülasyonu ve analizi. |
+| **NumPy** | Bilimsel hesaplamalar. |
+| **Matplotlib / Seaborn** | Statik veri görselleştirme. |
+| **Plotly** | Etkileşimli ve dinamik grafikler. |
+| **Jupyter Notebook** | İnteraktif geliştirme ortamı. |
 
-## 📈 Veri Seti Detayları
+## 💻 Kurulum ve Kullanım
 
-Kullanılan veri seti şu özellikleri içermektedir:
-- **Demografik Bilgiler:** Cinsiyet, etnik köken, ebeveyn eğitim seviyesi.
-- **Sınav Notları:** Matematik, okuma ve yazma skorları.
-- **Hazırlık Durumu:** Sınav hazırlık kursunun tamamlanıp tamamlanmadığı.
-
-> **Not:** Analiz kapsamında özellikle matematik notlarının varyansı ve çeyreklik (quartile) değerleri üzerine yoğunlaşılmıştır.
-
-## 💻 Kurulum ve Çalıştırma
-
-Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
-
-1. **Depoyu Klonlayın:**
+1. Depoyu yerel makinenize klonlayın:
    ```bash
    git clone https://github.com/zeycanaslan/student-performance-analysis.git
-   cd student-performance-analysis
    ```
-
-2. **Gerekli Kütüphaneleri Yükleyin:**
+2. Gerekli kütüphaneleri yükleyin:
    ```bash
-   pip install pandas matplotlib plotly notebook
+   pip install pandas numpy matplotlib plotly notebook
    ```
-
-3. **Notebook'u Başlatın:**
-   ```bash
-   jupyter notebook box-chart.ipynb
-   ```
+3. İlgili `.ipynb` dosyasını Jupyter Notebook veya VS Code üzerinden açarak çalıştırın.
 
 ---
-📫 **İletişim:** Herhangi bir soru veya geri bildirim için profilim üzerinden bana ulaşabilirsiniz.
+📫 **İletişim:** Herhangi bir soru veya iş birliği teklifi için profilim üzerinden bana ulaşabilirsiniz.
 
-*Bu çalışma Zeycan Aslan tarafından bir veri analizi pratiği olarak geliştirilmiştir.*
+*Bu depo Zeycan Aslan tarafından sürekli güncellenmektedir.*
