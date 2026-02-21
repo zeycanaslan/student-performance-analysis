@@ -21,6 +21,13 @@ Bu depo, Python kullanarak gerçekleştirdiğim çeşitli veri analizi, veri mad
 - **Odak Noktası:** Cinsiyet ve yaş gruplarına göre yıllık gelir ve harcama skorlarının yoğunluk dağılımı.
 - **Teknikler:** Violin Plot (Keman Grafiği), Seaborn, Pandas, Matplotlib.
 
+### 4. 🥧 Dünya Nüfus Dağılımı Analizi (`pie-chart.ipynb`)
+- **Açıklama:** Dünya nüfus veri seti kullanılarak kıtalara göre nüfus dağılımı incelenmiştir.
+- **Odak Noktası:** 2022 yılı verilerine göre kıtaların toplam nüfus içerisindeki payları.
+- **Teknikler:** Pie Chart (Pasta Grafiği), Pandas, Matplotlib.
+- **Görsel Çıktı:**
+  ![Dünya Nüfus Dağılımı](world_population_pie.png)
+
 ---
 
 ## 🛠️ Kullanılan Genel Teknolojiler
